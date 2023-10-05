@@ -67,7 +67,7 @@ ahorros=float(input("Por favor introduzca la cantidad de ahorros de tu cuenta"))
 calculo1=ahorros*0.04
 print(calculo1)
 calculo2=calculo1+ ahorros*0.04
-print(round(calculo2,2)
+print(round(calculo2,2))
 calculo3=calculo1+calculo2+ahorros*0.04
 print(round(calculo3,2))
 
