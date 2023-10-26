@@ -1,6 +1,6 @@
 entero=int(input("Por favor introduzca un número entero entre el 1 y el 10:"))
 #abrimos fichero
-f=open("prueba.txt", "w")
+f=open("prueba.txt", 'a')
 f.write("Esto es una prueba")
 
 #hasta 11 para que incluya el 10
