@@ -1,5 +1,5 @@
 entero=int(input("Por favor introduzca un número entero: "))
-for i in range(1,1):
+for i in range(1,entero):
     print(i)
 #for i in range(1+entero,entero):
     print(i)

@@ -14,15 +14,17 @@ for ropa in armario_lista:
     if ropa == "V":
         v=v+1
     elif ropa =="I":
-        I=i+1
-    elif ropa == "a":
+        i=i+1
+    elif ropa == "A":
         a=a+1
     else:("Control incorrecto")
 print("valor",v,i,a)
     
-if a< v > i :
+if v > i and v > a :
     print("Es de verano")
-if i > v < a :
+elif i > v and i > a:
     print("Es de invierno")
-if i == a == v or :
+elif (a > v and a > i) or a==i==v :
     print("Son ambas")
+else:
+    print("opcion no contemplada")
